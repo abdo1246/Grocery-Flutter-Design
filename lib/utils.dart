@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 class Item {
-  String name;
-  String price;
-  String reviewCount;
-  String image;
-  Color background;
+  String? name;
+  String? price;
+  String? reviewCount;
+  String? image;
+  Color? background;
 
   Item(
       {required this.background,
